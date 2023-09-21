@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.listaMensagens{
+    width: 99%;
+}
+
+ .campo-envio{
+    display: flex;
+    justify-content: space-between;
+    height: 3ch;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+ }
+ .input-remetente{
+    border-color: violet;
+    border-radius: 3px;
+    width: 33%;
+    margin-right: 0.7%;
+
+}
+.input-remetente::placeholder{
+   color: indigo;
+}
+.input-conteudo::placeholder{
+   color: indigo;
+}
+ .input-conteudo{
+    border-color: violet;
+    border-radius: 3px;
+    width: 65%;
+    margin-right: 0.7%;
+ }
+
+ .envia{
+    color: blueviolet;
+    background-color: violet;
+    width: 9%;
+    border-radius: 9px;
+    border: 1px;
+    border-color: blueviolet;
+ }
